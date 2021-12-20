@@ -1,0 +1,79 @@
+.navbar-header a.navbar-brand h1 {
+   color: rgb(10, 60, 151);
+   margin: 0;
+   padding: 0 0 0;
+}
+
+.container-fluid {
+   padding: 20px 15px;
+}
+.navbar-brand {
+   padding-top: 0;
+}
+.nav-row {
+   background-color: darkgrey;
+   padding-bottom: 0;
+   border-bottom: solid 2px darkslateblue;
+}
+.navbar {
+   border-radius: 0;
+   margin-bottom: 0;
+}
+.navbar-collapse {
+   padding: 0;
+}
+.navbar-toggle {
+   margin-bottom: 25px;
+}
+
+.main-content h2 {
+   font-weight: 600;
+   margin: 0 0 20px;
+}
+.menu p {
+   text-align: justify;
+   margin: 0;
+}
+
+.menu {
+   background-color: rgb(137, 192, 243);
+   margin: 15px 0;
+}
+.menu h3 {
+   font-weight: 600;
+   margin-bottom: 0;
+}
+.nav {
+   margin: 0;
+}
+.nav li:nth-of-type(1) a.text-center.hidden-lg.hidden-md.hidden-sm,
+.nav li:nth-of-type(2) a.text-center.hidden-lg.hidden-md.hidden-sm {
+   color: black;
+   font-size: 1.2em;
+   border-bottom: solid 1px white;
+}
+.nav li:last-of-type a.text-center.hidden-lg.hidden-md.hidden-sm {
+   color: black;
+   font-size: 1.2em;
+}
+.nav li:hover {
+   background-color: rgb(102, 188, 216);
+}
+
+@media (min-width: 1200px) {
+   .navbar {
+      width: 1170px;
+      margin: 0 auto;
+   }
+}
+@media (max-width: 767px) {
+   .collapse.navbar-collapse {
+      background-color: rgb(95, 119, 226);
+   }
+   .row {
+      margin: 0 25px;
+   }
+   .navbar-header a.navbar-brand h1 {
+      padding-left: 15px;
+   }
+}
