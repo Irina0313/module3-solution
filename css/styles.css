@@ -77,3 +77,22 @@
       padding-left: 15px;
    }
 }
+@media (min-width: 1200px) {
+   .container {
+      width: 1170px;
+   }
+   .nav-row.container-fluid {
+      margin: 0;
+      width: 1170px;
+   }
+}
+@media (min-width: 992px) {
+   .nav-row {
+      width: 970px;
+   }
+
+   .navbar-default {
+      background: transparent;
+      border: none;
+   }
+}
